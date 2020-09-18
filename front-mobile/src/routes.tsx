@@ -1,12 +1,10 @@
 import React from 'react';
-
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack';
-
-const Stack = createStackNavigator();
-
 import Home from './pages/Home';
 import CreateRecord from './pages/CreateRecord';
+
+const Stack = createStackNavigator();
 
 const Routes = () => {
   return (
